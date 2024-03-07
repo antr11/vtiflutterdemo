@@ -153,6 +153,13 @@ Container forceCast() {
           height: 1,
           color: Colors.white,
         ),
+        const Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text('Max: 33.6 C'),
+            Text('Min: 22.6 C'),
+          ],
+        ),
       ],
     ),
   );
